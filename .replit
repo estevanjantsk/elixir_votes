@@ -1,0 +1,9 @@
+run = """
+mix local.hex --if-missing --force
+elixir main.exs
+"""
+
+entrypoint = "main.exs"
+
+[env]
+LC_ALL = "en_US.UTF-8"
